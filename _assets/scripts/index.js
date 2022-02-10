@@ -1,7 +1,7 @@
 async function ChangeTheme() {
   let i = await document.documentElement.style.getPropertyValue("--main");
   if (i === "#ffffff") {
-/*
+    /*
   --main: #16181d;
   --txt: #e5e5fa;
   --links: #4e78d9;
@@ -16,8 +16,8 @@ async function ChangeTheme() {
     document.documentElement.style.setProperty("--cardb", "#252429");
     document.documentElement.style.setProperty("--ul", "#525863");
     console.log("Changed Theme to Dark Mode");
-  } else { 
-/*
+  } else {
+    /*
   --main: #ffffff;
   --txt: #000000;
   --links: #0000ff;
