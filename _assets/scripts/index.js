@@ -1,7 +1,7 @@
 async function ChangeTheme() {
   let i = await document.documentElement.style.getPropertyValue("--main");
 
-  if (i === "" || i === "#ffffff") {
+  if (i === "#ffffff") {
     /**
      * --main: #081421;
      * --txt: #d3d7de;
