@@ -3,20 +3,20 @@ async function ChangeTheme() {
 
   if (i === "" || i === "#ffffff") {
     /**
-     * --main: #0F0E0E;
-     * --txt: #e2e5e6;
-     * --links: #004aad;
-     * --button: #004aad;
-     * --cardb: #252429;
-     * --ul: #c2c3bd;
+     * --main: #081421;
+     * --txt: #d3d7de;
+     * --links: #2796ec;
+     * --button: #2796ec;
+     * --cardb: #e9e9e9;
+     * --ul: #bdbdbd; 
      */
 
-    document.documentElement.style.setProperty("--main", "#0F0E0E");
-    document.documentElement.style.setProperty("--txt", "#fffaff");
-    document.documentElement.style.setProperty("--links", "#004aad");
-    document.documentElement.style.setProperty("--button", "#004aad");
-    document.documentElement.style.setProperty("--cardb", "#252429");
-    document.documentElement.style.setProperty("--ul", "#c2c3bd");
+    document.documentElement.style.setProperty("--main", "#081421");
+    document.documentElement.style.setProperty("--txt", "#d3d7de");
+    document.documentElement.style.setProperty("--links", "#2796ec");
+    document.documentElement.style.setProperty("--button", "#2796ec");
+    document.documentElement.style.setProperty("--cardb", "#e9e9e9");
+    document.documentElement.style.setProperty("--ul", "#bdbdbd");
 
     console.log("Changed Theme to Dark Mode");
   } else {
@@ -38,4 +38,13 @@ async function ChangeTheme() {
 
     console.log("Changed Theme to Light Mode");
   }
+
+  /** OLD DARK MODE THEME
+   * --main: #0F0E0E;
+   * --txt: #e2e5e6;
+   * --links: #004aad;
+   * --button: #004aad;
+   * --cardb: #252429;
+   * --ul: #c2c3bd;
+   */
 }
