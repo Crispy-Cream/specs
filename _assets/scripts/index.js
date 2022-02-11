@@ -8,7 +8,7 @@ async function ChangeTheme() {
      * --links: #2796ec;
      * --button: #2796ec;
      * --cardb: #e9e9e9;
-     * --ul: #bdbdbd; 
+     * --ul: #bdbdbd;
      */
 
     document.documentElement.style.setProperty("--main", "#081421");
